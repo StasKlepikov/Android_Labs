@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab2(Fragment)</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textView_a">Enter A:</string>
+    <string name="textView_b">Enter B:</string>
+    <string name="rbtn_plus">a + b</string>
+    <string name="rbtn_minus">a - b</string>
+    <string name="rbtn_multiply">a * b</string>
+    <string name="rbtn_divide">a / b</string>
+</resources>

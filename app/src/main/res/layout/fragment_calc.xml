@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentCalc">
+
+    <RadioGroup
+        android:id="@+id/rbGroup"
+        android:layout_width="125dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="100dp">
+
+        <RadioButton
+            android:id="@+id/rbtnPlus"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/rbtn_plus"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rbtnMinus"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/rbtn_minus"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rbtnMultiply"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/rbtn_multiply"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/rbtnDivide"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/rbtn_divide"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/enterA"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="130px"
+        android:layout_marginTop="100px"
+        android:ems="10"
+        android:hint="@string/textView_a"
+        android:inputType="numberDecimal"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/enterB"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="550px"
+        android:layout_marginTop="100px"
+        android:ems="10"
+        android:hint="@string/textView_b"
+        android:inputType="numberDecimal"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="322dp"
+        android:text="Calculate" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="385dp"
+        android:text="Clear" />
+
+
+</FrameLayout>
